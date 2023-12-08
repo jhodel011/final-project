@@ -1,0 +1,117 @@
+/*default style*/
+body, html{
+    height: 100%;
+    margin: 0px 0px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5cm;
+    color: white;
+    background-color: black;
+    
+}
+
+h2 {
+    margin: 0px 0px;
+}
+
+/*Header Main*/
+
+.header-main, .body-main {   /*Parralox Scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.header-main { /*BG*/
+    background-image: url(../images/image_7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65%;
+}
+
+.body-main {
+    background-image: url(../images/image_7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 70%;
+    height: 70%;
+}
+
+
+header { /*Content*/
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 2px solid #082038
+    
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Header Box*/
+.title-box-parent {
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+    
+}
+
+
+.title-box {
+    display: inline-block;
+    width: 30%;
+    height: 90%;
+    padding-top: 10px;
+    margin-top: 120px;
+    margin-left: 15%;
+    background-image: url(../images/virus-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title-box-2 {
+    background-color: white;
+    display: inline-block;
+    width: 35%;
+    height: 90%;
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+  
+
+/*SECOND SECTION*/
+
+.paragraph_styles {
+    padding-top: 10;
+}
+  
